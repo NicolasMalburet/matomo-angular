@@ -1,0 +1,5 @@
+<p>This is the form page.</p>
+<form #f="ngForm" name="test" (ngSubmit)="onSubmit(f)">
+  <input name="first" ngModel required #first="ngModel" />
+  <button type="submit">Save</button>
+</form>
